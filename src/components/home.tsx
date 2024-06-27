@@ -1,5 +1,5 @@
-import {Calendar, Google} from "./icons.tsx";
+import Icon from "./icon.tsx";
 
 export default function Home() {
-  return <div className="home"><Google /> Home <Calendar /></div>;
+  return <div className="home"><Icon name={'google'} /> Home</div>;
 }

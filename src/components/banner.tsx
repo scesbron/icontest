@@ -1,5 +1,5 @@
-import {Gift} from "./icons.tsx";
+import Icon from "./icon.tsx";
 
 export default function Banner() {
-  return <div className="banner">Banner <Gift /></div>;
+  return <div className="banner">Banner <Icon name={'gift'}/></div>;
 }
