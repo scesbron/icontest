@@ -1,6 +1,5 @@
-import Icon from "./icon.tsx";
-import {Calendar, Google} from "./icons.tsx";
+import SpriteIcon from "./sprite-icon.tsx";
 
 export default function Inline() {
-  return <div><Google/> Inline <Calendar /></div>;
+  return <div><SpriteIcon name={'google'}/> Inline <SpriteIcon name={'calendar'}/></div>;
 }
