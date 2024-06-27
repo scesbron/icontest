@@ -1,6 +1,5 @@
-import Icon from "./icon.tsx";
-import {Calendar, Google} from "./icons.tsx";
+import {Gift} from "./icons.tsx";
 
 export default function Inline() {
-  return <div><Google/> Inline <Calendar /></div>;
+  return <div><Gift/> Inline</div>;
 }
